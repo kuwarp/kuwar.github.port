@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+.loading-container {
+  background-color: black;
+  width: auto;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto Mono', monospace;
+}
+.logo {
+  
+  height: 40%;
+  width: 40%;
+  border-radius: 50%;
+}
+.loading-content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  /* flex-direction: column; */
+  gap: 23px;
+}
+.brand {
+  color: white;
+}
+.intro {
+  color: white;
+}
+
+#section_logo {
+  -webkit-animation: 3s ease 0s normal forwards 1 fadein;
+  animation: 3s ease 0s normal forwards 1 fadein;
+ 
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#section_logo-i {
+  -webkit-animation: 2s ease 0s normal forwards 1 fadein;
+  animation: 2s ease 0s normal forwards 1 fadein;
+ 
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#section_land p {
+  overflow: hidden; 
+  border-right: 0.15em solid rgb(229, 232, 71); 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: 0.15em; 
+  animation: all 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes all{
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: darkkhaki;
+  }
+}
+
+.lazy{
+   height: 360px;
+  width: 360px;
+  transform-style: preserve-3d;
+  transform:  perspective(500px) rotate(10deg);
+
+}
+
+.lazy span{
+  /* display: flex; */
+  position: absolute;
+  border: 7px solid #00002a;
+  border-radius: 50%;
+  box-shadow: 0 5px 0 #014d1a;
+  animation: animate 3s ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animate{
+  0%,100%{
+      transform: translateZ(-100px);
+  }
+  50%{
+      transform: translateZ(100px);
+  }
+}
+
+.lazy span:nth-child(1), .lazy span:nth-child(5),
+.lazy span:nth-child(9), .lazy span:nth-child(13){
+  border-color: #f8f2ff;
+  box-shadow: 0 5px 0 #c5c2c0;
+}
+
+.lazy span:nth-child(2), .lazy span:nth-child(6),
+.lazy span:nth-child(10), .lazy span:nth-child(14){
+  border-color: #3fc100;
+  box-shadow: 0 5px 0 #330ca3;
+}
+
+.lazy span:nth-child(3), .lazy span:nth-child(7),
+.lazy span:nth-child(11), .lazy span:nth-child(15){
+  border-color: #fc5185;
+  box-shadow: 0 5px 0 #c33963;
+}
+
+
+.lazy span:nth-child(4), .lazy span:nth-child(8),
+.lazy span:nth-child(12), .lazy span:nth-child(16){
+  border-color: #5a23a4;
+  box-shadow: 0 5px 0 #4b247a;
+}
+.lazy span:nth-child(1){
+  inset: 0;
+  animation-delay: 1.6s;
+
+}
+.lazy span:nth-child(2){
+  inset: 10px;
+  animation-delay: 1.5s;
+}
+.lazy span:nth-child(3){
+  inset: 20px;
+  animation-delay: 1.4s;
+}
+.lazy span:nth-child(4){
+  inset: 30px;
+  animation-delay: 1.3s;
+}
+.lazy span:nth-child(5){
+  inset: 40px;
+  animation-delay: 1.2s;
+}
+.lazy span:nth-child(6){
+  inset: 50px;
+  animation-delay: 1.1s;
+}
+.lazy span:nth-child(7){
+  inset: 60px;
+  animation-delay: 1.0s;
+}
+.lazy span:nth-child(8){
+  inset: 70px;
+  animation-delay: 0.9s;
+}
+.lazy span:nth-child(9){
+  inset: 80px;
+  animation-delay: 0.8s;
+}
+.lazy span:nth-child(10){
+  inset: 90px;
+  animation-delay: 0.7s;
+}
+.lazy span:nth-child(11){
+  inset: 100px;
+  animation-delay: 0.6s;
+}
+.lazy span:nth-child(12){
+  inset: 110px;
+  animation-delay: 0.5s;
+}
+.lazy span:nth-child(13){
+  inset: 120px;
+  animation-delay: 0.4s;
+}
+.lazy span:nth-child(14){
+  inset: 130px;
+  animation-delay: 0.3s;
+}
+.lazy span:nth-child(15){
+  inset: 140px;
+  animation-delay: 0.2s;
+}
+.lazy span:nth-child(16){
+  inset: 150px;
+  animation-delay: 0.1s;
+}
+
+@media (min-width:100px) and (max-width:1200px) {
+  .loading-content{
+    /* justify-content: center; */
+  /* align-items: center; */
+  display: flex;
+  flex-direction: column;
+    gap: 30px;
+  }
+}
