@@ -7,10 +7,12 @@
 }
 
 .pl-texts {
+  /* margin-top: 20px; */
   width: 65%;
 }
 
 .pl-title {
+  margin-top: 20px;
   font-size: 50px;
   font-weight: 600;
 }
@@ -26,16 +28,19 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .pl {
-    padding: 10px;
+    
+    padding: 15px;
   }
 
   .pl-texts {
+    
+   
     width: 100%;
   }
 
   .pl-desc {
-    display: none;
+    /* display: none; */
   }
 }

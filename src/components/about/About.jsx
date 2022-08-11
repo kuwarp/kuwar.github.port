@@ -27,6 +27,17 @@ const About = () => {
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
         </p>
+        <p className="para">
+            I mostly work on web development using JavaScript and Database
+            technologies. I build and develop robust, secure and scalable
+            infrastructure and servers using various database technologies such
+            as MySql,postreSql,MongoDb,Maria,Laravel and proficient with both
+            frontend and backend web development technologies such as React,
+            Node.js, JavaScript, PHP, etc. I have Strong Knowledge in operating
+            System Mechanism. I also known pen-test, OS Administration, and
+            working on different different Opersting Systems such as : Windows,
+            Linux,Ubuntu.
+          </p>
         <div className="a-award">
           <img src={Award} alt="" className="a-award-img" />
           <div className="a-award-texts">

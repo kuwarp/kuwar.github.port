@@ -3,6 +3,9 @@
   display: flex;
   align-items: center;
 }
+.para{
+ 
+}
 
 .a-left {
   flex: 1;
@@ -92,14 +95,32 @@
     }
 
     .a-card {
-      height: 30vh;
+      height: 20vh;
     }
 
-    .a-card.bg, .a-award {
+    .a-card.bg {
       display: none;
     }
-
+    .a-award{
+      visibility: visible;
+    }
     .a-right{
-      padding: 20px;
+      padding: 2px;
+    }
+    .a-desc, .a-sub {
+      visibility: hidden;
     }
 }
+
+/* @media screen and (min-width:800px) {
+  .a-award{
+    visibility: visible;
+  }
+  .para{
+   
+    font-weight: 300;
+    text-decoration: none;
+    margin: 20px 0px;
+    visibility: hidden;
+  }
+} */

@@ -2,19 +2,19 @@ import award from './img/legit.png'
 export const products = [
   {
     id: 1,
-    img:{award},
+    mage:{award},
     link: "https://www.hackerrank.com/certificates/b55158ad7d16",
   },
   
   {
     id: 2,
-    img: "./img/legit.png",
-    link: "",
+    imge: "./img/legit.png",
+    link: "https://www.hackerrank.com/certificates/de4f72e42e8c",
   },
   {
     id: 3,
     img: "",
-    link: "",
+    link: "https://www.hackerrank.com/certificates/68d0f0b7cedd",
   },
   {
     id: 4,

@@ -82,7 +82,7 @@
 }
 
 .i-title-item {
-  /* margin-bottom: -30px; */
+  margin-bottom: 30px;
   height: 50px;
   font-size: 30px;
   font-weight: bold;
@@ -111,7 +111,7 @@
 }
 
 
-@media screen and (max-width: 480px) {
+@media (min-width:300px) and (max-width: 1200px) {
   .i {
     flex-direction: column;
   }
@@ -126,7 +126,7 @@
   }
 
  .i-desc{
-    /* display: none; */
+    display: none;
     margin-top: 12px;
     
   }
@@ -135,7 +135,3 @@
   
 }
 
- .para{
-  margin-top: 13px;
-  margin-bottom: 12px;
-}

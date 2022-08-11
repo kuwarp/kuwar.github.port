@@ -1,4 +1,5 @@
-// import react from "react";
+import react from "react";
+
 
 import "./intro.css";
 import Me from "../../img/legit.png";
@@ -19,7 +20,7 @@ const Intro = () => {
               <div className="i-title-item">Freelancer</div>
             </div>
           </div>
-          <p className="para i-desc">
+          <p className=" i-desc">
             I mostly work on web development using JavaScript and Database
             technologies. I build and develop robust, secure and scalable
             infrastructure and servers using various database technologies such
