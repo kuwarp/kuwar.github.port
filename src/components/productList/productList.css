@@ -7,7 +7,7 @@
 }
 
 .pl-texts {
-  /* margin-top: 20px; */
+  margin-top: 20px;
   width: 65%;
 }
 
@@ -28,11 +28,14 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
   .pl {
     
     padding: 15px;
   }
+ .pl-title{
+   margin-top: 17rem;
+ }
 
   .pl-texts {
     
@@ -40,7 +43,4 @@
     width: 100%;
   }
 
-  .pl-desc {
-    /* display: none; */
-  }
 }
