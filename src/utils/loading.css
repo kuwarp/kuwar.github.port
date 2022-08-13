@@ -10,7 +10,6 @@
   font-family: 'Roboto Mono', monospace;
 }
 .logo {
-  
   height: 40%;
   width: 40%;
   border-radius: 50%;
@@ -20,13 +19,13 @@
   align-items: center;
   display: flex;
   /* flex-direction: column; */
-  gap: 23px;
+  gap: 20px;
 }
 .brand {
   color: white;
 }
 .intro {
-  color: white;
+  color: rgb(227, 146, 146);
 }
 
 #section_logo {
@@ -235,11 +234,16 @@
 }
 
 @media (min-width:100px) and (max-width:1200px) {
+
   .loading-content{
     /* justify-content: center; */
   /* align-items: center; */
   display: flex;
   flex-direction: column;
     gap: 30px;
+  }
+  .lazy{
+    height: 200px;
+    width: 200px;
   }
 }

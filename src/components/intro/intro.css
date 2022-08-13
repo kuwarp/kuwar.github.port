@@ -33,7 +33,7 @@
 }
 
 .i-title {
-  /* margin-top: 20px; */
+  margin-top: 20px;
   /* margin-bottom: 20px; */
   height: 50px;
   overflow: hidden;
@@ -111,7 +111,7 @@
 }
 
 
-@media (min-width:300px) and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .i {
     flex-direction: column;
   }

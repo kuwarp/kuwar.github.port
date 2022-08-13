@@ -8,11 +8,13 @@ const About = () => {
       <div className="a-left">
         <div className="a-card bg"></div>
         <div className="a-card">
-          <img
+         <img
+        
             src={hym}
             alt=""
             className="a-img"
           />
+         
         </div>
       </div>
       <div className="a-right">
@@ -39,12 +41,14 @@ const About = () => {
             Linux,Ubuntu.
           </p>
         <div className="a-award">
+       
           <img src={Award} alt="" className="a-award-img" />
+          
           <div className="a-award-texts">
             <h4 className="a-award-title">My Certifications</h4>
-            <p className="a-award-desc" >
-              <a className="linking" href="\" >click on this for Hackerrank</a>
-            </p>
+            <div className="a-award-desc" >
+              <a  className="linking" href="https://www.hackerrank.com/certificates/68d2764fe16a/" >click </a>on this for Hackerrank
+            </div>
           </div>
         </div>
       </div>
